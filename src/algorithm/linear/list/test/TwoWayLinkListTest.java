@@ -1,6 +1,6 @@
-package algorithm.linear.test;
+package algorithm.linear.list.test;
 
-import algorithm.linear.TwoWayLinkList;
+import algorithm.linear.list.TwoWayLinkList;
 
 /**
  * java中的LinkList集合使用双向链表实现

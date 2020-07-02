@@ -1,4 +1,4 @@
-package algorithm.linear;
+package algorithm.linear.list;
 
 import java.util.Iterator;
 

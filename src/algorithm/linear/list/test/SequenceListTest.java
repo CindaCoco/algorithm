@@ -1,6 +1,6 @@
-package algorithm.linear.test;
+package algorithm.linear.list.test;
 
-import algorithm.linear.SequenceList;
+import algorithm.linear.list.SequenceList;
 
 public class SequenceListTest {
     public static void main(String[] args){

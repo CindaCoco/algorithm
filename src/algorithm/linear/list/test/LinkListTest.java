@@ -1,6 +1,6 @@
-package algorithm.linear.test;
+package algorithm.linear.list.test;
 
-import algorithm.linear.LinkList;
+import algorithm.linear.list.LinkList;
 
 public class LinkListTest {
     public static void main(String[] args){
