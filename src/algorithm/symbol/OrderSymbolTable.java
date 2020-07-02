@@ -1,6 +1,6 @@
 package algorithm.symbol;
 
-public class OrderSymbolTable<Key extends Comparable, Value> {
+public class OrderSymbolTable<Key extends Comparable<Key>, Value> {
     Node head;
     int N;
 
