@@ -1,4 +1,4 @@
-package algorithm.test;
+package algorithm.sort.test;
 
 import algorithm.sort.*;
 
