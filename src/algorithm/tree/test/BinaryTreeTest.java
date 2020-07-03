@@ -2,6 +2,7 @@ package algorithm.tree.test;
 
 import algorithm.linear.queue.Queue;
 import algorithm.tree.BinaryTree;
+import algorithm.tree.RedBlackTree;
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 public class BinaryTreeTest {
@@ -51,5 +52,17 @@ public class BinaryTreeTest {
 
         System.out.println("树的深度为："+binaryTree.maxDepth());
 
+
+
+
+        //红黑树
+        RedBlackTree<String,String> tree = new RedBlackTree<>();
+        tree.put("1", "张三");
+        tree.put("2", "李四");
+        tree.put("3", "王五");
+        String r1 = tree.get("1");
+        String r2 = tree.get("2");
+        String r3 = tree.get("3");
+        System.out.println(r1+" "+r2+" "+r3);
     }
 }
